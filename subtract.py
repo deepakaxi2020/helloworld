@@ -1,0 +1,1 @@
+def subtract_integers(a, b):\n  """This function subtracts two integers."""\n  if not isinstance(a, int) or not isinstance(b, int):\n    raise TypeError("Both arguments must be integers.")\n  return a - b\n\nif __name__ == "__main__":\n  num1 = 10\n  num2 = 5\n  result = subtract_integers(num1, num2)\n  print(f"The difference between {num1} and {num2} is: {result}")
